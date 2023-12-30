@@ -1,0 +1,81 @@
+export const menuItems = [
+    {
+        title:"Home",
+        url:"/Home",
+    },
+    {
+        title:"Services",
+        submenu:[
+            {
+                title:"frontend",
+                submenu:[
+                    {
+                        title:"Html",
+                        url:'/Html',
+                    },
+                    {
+                        title:"CSS",
+                        url:'/CSS',
+                    },
+                    {
+                        title:"React",
+                        url:'/React',
+                    }
+                ]
+            },
+            {
+                title:"backend",
+                submenu:[
+                    {
+                        title:"Nodejs",
+                        url:'/Node',
+                    },
+                    {
+                        title:"Javascript",
+                        url:'/Javascript',
+                    }
+                ]
+            },
+            {
+                title:"CloudServices",
+                submenu:[
+                    {
+                        title:"AWS",
+                        url:'/aws',
+                    },
+                    {
+                        title:"AZURE",
+                        url:"/Azure",
+                    },
+                    {
+                        title:"GCP",
+                        url:"/GCP",
+                    }
+                ]
+            },{
+                title:"Data Services",
+                submenu:[
+                    {
+                        title:"Machine Learning",
+                        url:"Machine",
+                    },{
+                        title:"Data Science",
+                        url:"Data"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        title:"About Us",
+        url:"/About",
+    },
+    {
+        title:"Contact Us",
+        url:"/Contact",
+    },
+    {
+        title:"Blogs",
+        url:"/Blogs",
+    }
+]
